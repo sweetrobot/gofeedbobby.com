@@ -12,4 +12,4 @@ Then open `http://127.0.0.1:8000/`.
 
 ## GitHub Pages
 
-Once published, the site will be at `https://floridaseating.github.io/gofeedbobby.com/`.
+Once published, the site will be at `https://sweetrobot.github.io/gofeedbobby.com/`.
