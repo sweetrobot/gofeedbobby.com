@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gofeedbobby.com</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="stage" aria-label="Fullscreen looping video">
+      <video
+        id="bgVideo"
+        class="bg-video"
+        autoplay
+        loop
+        playsinline
+        muted
+        preload="auto"
+      >
+        <source src="./bobbysgotguns-feedme.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <img
+        id="poster"
+        class="poster"
+        src="./bobbysgotguns-feedme-poster.jpg"
+        alt=""
+        aria-hidden="true"
+        decoding="async"
+        fetchpriority="high"
+      />
+
+      <button id="soundButton" class="sound-button" type="button" hidden>
+        Tap for sound
+      </button>
+    </main>
+  </body>
+</html>
